@@ -8,7 +8,6 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
 import Certifications from './components/Certifications';
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function App() {

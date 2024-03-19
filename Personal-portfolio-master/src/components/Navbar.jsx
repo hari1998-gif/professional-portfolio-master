@@ -14,7 +14,7 @@ const Navbar = () => {
   ]
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      const nav = document.querySelector('nav')
+      // const nav = document.querySelector('nav')
       window.scrollY > 30 ? setSticky(true) : setSticky(false);
     })
   })
